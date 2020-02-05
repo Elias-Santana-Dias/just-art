@@ -1,0 +1,38 @@
+#teste{
+  background-color:black;
+  width: 100px;
+  height: 100px;
+  margin:0 auto;
+
+}
+
+#teste:hover{
+  background-color:black;
+  margin: 0 auto;
+  animation: div-animation 1s ease-out forwards;
+}
+
+@keyframes div-animation {
+    25%{
+    width:120px;
+    height: 120px
+  }50%{
+    width:100px;
+    height: 100px
+  }75%{
+    width:110px;
+    height: 110px
+    }100%{
+    width:100px;
+    height: 100px
+  }
+
+}
+@keyframes lado {
+  0%{
+    opacity: 0;
+    transform: translateX(-500px);
+  }100%{
+    transform: translateX(0px);
+  }
+}

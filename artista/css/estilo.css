@@ -1,0 +1,101 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+ }
+h2{text-align: center;}
+ .menu{
+   width: 100%;
+   height: 50px;
+   background-color: #222;
+   font-family: 'Arial';
+ }
+
+ .menu ul {
+   list-style: none;
+   position: relative;
+ }
+
+ .menu ul li {
+   width: 130px;
+   float: left;
+   }
+
+  .menu a {
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+  }
+
+ .menu ul ul {
+   position: absolute;
+   visibility: hidden;
+ }
+
+ .menu ul li:hover ul {
+   visibility: visible;
+ }
+
+ .menu a:hover{
+   background-color: #f4f4f4;
+   transition-duration: 1.1s;
+   color: #555;
+ }
+
+ .menu ul ul li {
+   float: none;
+   border-bottom: solid 1px #ccc;
+ }
+
+ menu ul ul li a {
+   background-color: #069;
+ }
+ fieldset{width:100%;max-width: 600px;margin:20px auto;}
+ form p{padding:4px 20px; font-size: 20px;}
+
+ input[type=text],input[type=password], select, textarea{padding: 10px 5px; width: 100%; border: 1px solid #666;}
+ /*Fim edit dos formularios*/
+ .padding{padding: 20px;}
+ .centro{text-align: center;}
+ button{padding:5px 20px;}
+
+.container{width:100%; float:left; padding:20px 0px;}
+
+.noticias .content{display: flex; justify-content: space-between; /*align-items: center*/; flex-wrap: wrap;}
+.noticias .box{flex: 1; margin: 20px 45px;background:#ffffffcc; border-radius:5px;}
+.noticias .box a{margin: 10px 8px 0 10;text-decoration:none; color:#27334D;font-size: 40px;}
+.box img{height: 220px;}
+.box{text-align: center;}
+
+.jorn{font-size:18px;float:right;color:#27334D;}
+/*Fim edit noticias*/
+.not-index{display: block;width:100%; max-width: 100%;padding:0px 15px 0px 10px;}
+#noticia img{width:50%;height: 462px;float: left;text-align: center;margin:10px 10px;}
+#noticia h1{text-align: center;margin:5px 0px 25px;color:#27334D;}
+/*comentarios*/
+.upcom textarea{width: 80%;height:100px; resize:none;}
+.upcom h3{text-align: center;}
+.comentarios{width: 100%;max-width: 700px;height: 300px;border:1px solid black;overflow: auto;margin-left:20px;}
+/*foto da noticia em editar*/
+.imgnot img{height:160px;width:200px;}
+.imgnot{text-align: center;}
+/*Tabela de editar e Excluir*/
+table{width:100%;max-width:500px;margin:20px auto;border-collapse:collapse;border:1px solid black;text-align: left;}
+td,th{border:1px solid black;padding:8px 40px 8px 20px;}
+/*****************************/
+/*Disfarçando Botão, onde mostra o nome da pessoa no resultado da busca*//*Eu queria usar este metodo para deixar o site mais seguro, más para eu reenviar o usuario com esse mesmo valor em formato post, e necessrio ter conhecimento em javascript Jquery*/
+.tim {
+    border: 0;
+    padding: 0;
+    display: inline;
+    background: none;
+    text-decoration: none;
+    color: black;
+}
+button:hover {
+    cursor: pointer;
+}
+/*FIM de Botão Disfarçado*/

@@ -1,0 +1,372 @@
+.delete{
+  margin-top:20px;
+  margin-left: 70px;
+}
+
+.editar{
+  margin-top:20px;
+  margin-left: 20px;
+}
+
+.texto-comentario{
+  padding-left: 70px;
+}
+
+.coment-img{
+  object-fit: cover;
+  width: 45px !important;
+  height: 45px !important;
+  border-radius: 50px;
+  margin-top: 60%;
+}
+
+.container-noventa{
+  width: 90% !important;
+  margin: 0 auto !important;
+}
+label{
+  font-size: 50px;
+}
+
+.edicao-perfil{
+  height:200px;
+  width:200px;
+  object-fit:cover;
+}
+
+h5{
+  font-weight: bold;
+}
+
+a#olho{
+  color:#000 !important;
+}
+.olho-senha:hover{
+  transition: 1s;
+  color:blue;
+}
+.circle{
+  object-fit:cover;
+}
+.balao2{
+    margin-left: 30px;
+    margin-top: 65px !important;
+    background: #7e57c2;
+    font-family: 'open sans';
+    font-size: 0.85em;
+    line-height: 1.6em;
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    margin-top: 30px;
+    font-size: 12px;
+    opacity: 0;
+    transition: .5s;
+}
+.balao2:hover{
+  opacity: 1;
+}
+.balao2:after{ /*Triangulo*/
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    /*Faz seta "apontar para baixo. Definir o valor como 'top' fará ela "apontar para cima" */
+    /*Aqui entra a cor da "aba" do balão */
+    border-bottom: 20px solid #7e57c2;
+    top: -20px; /*localização. Experimente alterar para 'bottom'*/
+    left: 20%;
+}
+
+.perfil-img{
+  object-fit: cover;
+  width: 400px !important;
+  height: 450px !important;
+  border-radius: 10px;
+}
+.card-slider{
+  height:390px !important;
+}
+
+body#email{
+  background: url('../img/madeira.jpg') no-repeat fixed;
+  width:100%;
+}
+
+body#senha{
+  font-family: 'times new roman', 'Tahoma', 'Arial' !important;
+  background: url('../img/pin.jpg') no-repeat fixed;
+  width:100%;
+}
+
+body#enviarv{
+  font-family: 'times new roman', 'Tahoma', 'Arial' !important;
+  background: url('../img/fundo.jpg') no-repeat fixed;
+  width:100%;
+}
+
+body#enviarf{
+  font-family: 'times new roman', 'Tahoma', 'Arial' !important;
+  background: url('../img/fundo.jpg') no-repeat fixed;
+  width:100%;
+}
+
+body#galeria{
+  background-color:#ddd;
+}
+
+.up{
+  font-size:20px;
+  margin-bottom: -10px;
+  font-weight: bold;
+}
+
+.trnasform{
+  background-color: rgba(0, 0, 200, 0.6);
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+footer{
+  width: 100%;
+}
+
+body{
+  font-family: 'times new roman', 'Tahoma', 'Arial' !important;
+}
+
+.centro{
+  text-align: center !important;
+}
+.direita{
+  text-align: right;
+}
+.esquerda{
+  text-align: left;
+}
+.justificado{
+  text-align: justify;
+}
+.cont{
+    width: 80%;
+    margin:50 auto;
+}
+.azul{
+  background: #D1E0EB !important;
+  padding-bottom: 15px;
+}
+.topo{
+  margin-top: 40px;
+}
+#texto-paralax{
+  width: 50%;
+  margin-left:150px;
+  animation: para 1.5s ease-out forwards;
+}
+
+.bloco{
+  width: 50%;
+  margin: 0 auto;
+}
+.parallax-container {
+      height: 600px;
+    }
+.brand-logo img{margin-top:-4px ;}
+
+.sobreposto{position: relative;}
+.divazul{position: absolute;top: 0; left: 0; height: 100%; width: 100%;
+  background-color: rgba(41, 128, 185,0.2);
+  z-index: 9999;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+}
+
+.relative{position: relative;}
+.capa{position: absolute; top: 0; left: 0; width: 100%; height:100%;}
+.box-video{position: fixed; top: 0; left: 0; width: 100%; height:100%; background-color: rgba(0,0,0,0.3); display: none; z-index: 9999; justify-content: center; align-items: center;}
+.box-video iframe{display: block; height: 500px;}
+.flex{display: flex !important;}
+.cardh{
+  height: 180px;
+}
+
+.carrossel{
+  height: 210px;
+}
+
+
+.img-card{
+  width: 325px;
+  height: 180px;
+  margin:10px auto;
+}
+.vid-card{
+  width: 370px;
+  height: 250px;
+  margin-left:-12px;
+  margin-right:;
+}
+
+.menu-img{
+  border-radius:50%;
+  height: 35px;
+  width:35px;
+  margin-top:40%;
+  object-fit: cover;
+}
+.btn-redondo{
+  border-radius:50px;
+}
+
+#Qsomos{
+  background-color: #d1e0eb;
+  padding-top:50px;
+  padding-bottom:50px;
+  margin: 0 auto;
+}
+
+#Qsomos p{
+  margin-bottom:10px;
+}
+
+/*Pagina da area do artista*/
+
+.item-centro{
+  margin:0 auto;
+}
+
+/*pagina de perfil do artista*/
+.subtitulo{
+ font-weight: bold;
+}
+
+div#teste{
+  box-shadow: 5px, 5px, 5px #000 !important;
+}
+#imagem{
+  padding-right:0px !important;
+  margin-top:20px;
+}
+
+#texto{
+  /*background-color:#f1f1f1*/
+  padding-top: 20px;
+  padding-bottom: 60px;
+  padding-left: 70px;
+}
+
+#qsou{
+  background-color: #d1e0eb;
+  padding-top:50px;
+  padding-bottom:50px;
+  margin-top:;
+}
+
+.sinza{
+  background-color: #d1e0eb;
+  margin-bottom: -5px;
+}
+
+.img-cardd{
+  width: 325px !important;
+  height: 250px !important;
+  margin:10px auto !important;
+}
+
+
+.card .card-titleh {
+  font-size: 24px;
+  font-weight: 300;
+  padding-left:24px;
+}
+
+.text-footer{
+  position: absolute;
+  bottom: 0px;
+}
+
+.text-footer2{
+  position: absolute;
+  bottom: 20px;
+}
+
+[data-anime]{
+  opacity: 0;
+  transition: 1s;
+}
+[data-anime].animate{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+[data-anime="left"]{
+  transform: translate3d(-100px, 0, 0);
+}
+[data-anime="right"]{
+    transform: translate3d(100px, 0, 0);
+}
+/*Animação do paralax*/
+@keyframes para {
+  0%{
+    opacity: 0;
+    transform: translateX(-500px);
+  }100%{
+    transform: translateX(0px);
+  }
+}
+
+/*Animação de transparencia*/
+@keyframes transparencia {
+  0%{
+    opacity: 0;
+  }100%{
+    opacity: 1;
+  }
+}
+/*Explorar*/
+.pesquisa{
+  margin-top: 100px !important;
+  margin-bottom: 50px !important;
+}
+/*
+.balao2{
+    margin-left: 30px;
+    margin-top: 65px !important;
+    background: #7e57c2;
+    font-family: 'open sans';
+    font-size: 0.85em;
+    line-height: 1.6em;
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    margin-top: 30px;
+    font-size: 12px;
+    opacity: 0;
+    transition: .5s;
+}
+.balao2:hover{
+  opacity: 1;
+}*/
+/*.balao2:after{ /*Triangulo*
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    /*Faz seta "apontar para baixo. Definir o valor como 'top' fará ela "apontar para cima" */
+    /*Aqui entra a cor da "aba" do balão *
+    border-bottom: 20px solid #7e57c2;
+    top: -20px; /*localização. Experimente alterar para 'bottom'*
+    left: 20%;
+}
+*/
